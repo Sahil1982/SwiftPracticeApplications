@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16G2136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="app_swoosh" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="100 Dollar Bill - Money Canvas Print by rocklanone" translatesAutoresizingMaskIntoConstraints="NO" id="OGx-AP-3Lu"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GO ALL IN" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v5C-iL-HQZ">
+                                <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="0.5" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="McI-Rd-UCN"/>
+                                    <constraint firstAttribute="width" constant="376" id="XWq-bn-SRf"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="44"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ON GOING ALL OUT" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o2W-a8-r9t">
+                                <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="0.5" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="375" id="c5k-s2-h54"/>
+                                    <constraint firstAttribute="height" constant="30.5" id="wwW-Qm-4Gd"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="22"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FIND A TEAM IN YOUR CITY TO COMPETE WITH" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gcj-dE-TDJ">
+                                <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="0.5" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="380" id="Kh7-As-7BW"/>
+                                    <constraint firstAttribute="height" constant="85" id="jIh-Qd-4XO"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="16"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="phm-fd-Fow">
+                                <color key="backgroundColor" red="0.0" green="1" blue="1" alpha="0.5" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="378" id="1Fh-al-8MK"/>
+                                    <constraint firstAttribute="height" constant="80" id="Dl0-4M-ztG"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="23"/>
+                                <state key="normal" title="GET STARTED">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Money title" translatesAutoresizingMaskIntoConstraints="NO" id="kCs-JZ-uFL">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="101" id="7Fi-Hm-3o3"/>
+                                    <constraint firstAttribute="width" constant="378" id="sHm-Bz-oBr"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="v5C-iL-HQZ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="0pb-nV-q98"/>
+                            <constraint firstItem="o2W-a8-r9t" firstAttribute="top" secondItem="v5C-iL-HQZ" secondAttribute="bottom" constant="8" symbolic="YES" id="0rG-Fq-1iL"/>
+                            <constraint firstItem="phm-fd-Fow" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="-2" id="0zY-Zr-eLy"/>
+                            <constraint firstItem="kCs-JZ-uFL" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="-2" id="125-M3-jdT"/>
+                            <constraint firstItem="v5C-iL-HQZ" firstAttribute="top" secondItem="kCs-JZ-uFL" secondAttribute="bottom" constant="8" id="2f3-oi-Cbn"/>
+                            <constraint firstItem="gcj-dE-TDJ" firstAttribute="top" secondItem="o2W-a8-r9t" secondAttribute="bottom" constant="108.5" id="4Bg-Ou-xL3"/>
+                            <constraint firstItem="v5C-iL-HQZ" firstAttribute="trailing" secondItem="phm-fd-Fow" secondAttribute="trailing" id="4xr-9r-vKl"/>
+                            <constraint firstItem="gcj-dE-TDJ" firstAttribute="top" secondItem="o2W-a8-r9t" secondAttribute="bottom" constant="108.5" id="7Wh-yD-8cQ"/>
+                            <constraint firstItem="o2W-a8-r9t" firstAttribute="top" secondItem="v5C-iL-HQZ" secondAttribute="bottom" constant="8" id="9Ku-LP-YBT"/>
+                            <constraint firstItem="o2W-a8-r9t" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="9W7-hx-zPc"/>
+                            <constraint firstItem="v5C-iL-HQZ" firstAttribute="leading" secondItem="OGx-AP-3Lu" secondAttribute="leading" id="9eG-eu-neb"/>
+                            <constraint firstItem="gcj-dE-TDJ" firstAttribute="leading" secondItem="phm-fd-Fow" secondAttribute="leading" id="CE3-UT-glT"/>
+                            <constraint firstItem="v5C-iL-HQZ" firstAttribute="centerX" secondItem="o2W-a8-r9t" secondAttribute="centerX" id="COF-hP-Nr5"/>
+                            <constraint firstItem="OGx-AP-3Lu" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="FrP-Mg-tA0"/>
+                            <constraint firstItem="gcj-dE-TDJ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="-2" id="Gdh-1Q-8P9"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="phm-fd-Fow" secondAttribute="bottom" constant="67" id="HVR-5t-iPT"/>
+                            <constraint firstAttribute="trailing" secondItem="phm-fd-Fow" secondAttribute="trailing" constant="-1" id="Iwl-9p-exc"/>
+                            <constraint firstItem="gcj-dE-TDJ" firstAttribute="top" secondItem="o2W-a8-r9t" secondAttribute="bottom" constant="108.5" id="JLa-lQ-dqp"/>
+                            <constraint firstItem="v5C-iL-HQZ" firstAttribute="leading" secondItem="o2W-a8-r9t" secondAttribute="leading" id="Lxc-Jo-yLC"/>
+                            <constraint firstItem="kCs-JZ-uFL" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="MKu-CB-esy"/>
+                            <constraint firstItem="gcj-dE-TDJ" firstAttribute="leading" secondItem="kCs-JZ-uFL" secondAttribute="leading" id="NVX-Ha-SSa"/>
+                            <constraint firstItem="v5C-iL-HQZ" firstAttribute="top" secondItem="kCs-JZ-uFL" secondAttribute="bottom" constant="8" id="RPD-Wa-lx1"/>
+                            <constraint firstItem="v5C-iL-HQZ" firstAttribute="top" secondItem="kCs-JZ-uFL" secondAttribute="bottom" constant="8" id="Rsx-rN-2s3"/>
+                            <constraint firstItem="o2W-a8-r9t" firstAttribute="top" secondItem="v5C-iL-HQZ" secondAttribute="bottom" constant="8" id="SfB-Le-hfp"/>
+                            <constraint firstItem="phm-fd-Fow" firstAttribute="top" secondItem="gcj-dE-TDJ" secondAttribute="bottom" constant="111" id="TE1-LU-hEZ"/>
+                            <constraint firstItem="kCs-JZ-uFL" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="UOl-Vb-KKz"/>
+                            <constraint firstItem="phm-fd-Fow" firstAttribute="top" secondItem="gcj-dE-TDJ" secondAttribute="bottom" constant="111" id="Xmf-jw-xL6"/>
+                            <constraint firstAttribute="trailing" secondItem="kCs-JZ-uFL" secondAttribute="trailing" constant="-1" id="YdQ-0Y-gXp"/>
+                            <constraint firstItem="gcj-dE-TDJ" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="324" id="Z8r-bG-Xhz"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="phm-fd-Fow" secondAttribute="bottom" constant="67" id="bE7-UG-TzU"/>
+                            <constraint firstItem="v5C-iL-HQZ" firstAttribute="trailing" secondItem="kCs-JZ-uFL" secondAttribute="trailing" id="bEm-e2-IC0"/>
+                            <constraint firstItem="phm-fd-Fow" firstAttribute="top" secondItem="gcj-dE-TDJ" secondAttribute="bottom" constant="111" id="bKh-kb-hi0"/>
+                            <constraint firstItem="v5C-iL-HQZ" firstAttribute="centerX" secondItem="gcj-dE-TDJ" secondAttribute="centerX" id="htb-U5-0RP"/>
+                            <constraint firstItem="OGx-AP-3Lu" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="irw-dq-nKH"/>
+                            <constraint firstAttribute="trailing" secondItem="OGx-AP-3Lu" secondAttribute="trailing" id="iy0-Yh-JIJ"/>
+                            <constraint firstItem="o2W-a8-r9t" firstAttribute="top" secondItem="v5C-iL-HQZ" secondAttribute="bottom" constant="8" id="oWN-EV-Phw"/>
+                            <constraint firstAttribute="trailing" secondItem="o2W-a8-r9t" secondAttribute="trailing" id="p2o-fd-LtF"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="OGx-AP-3Lu" secondAttribute="bottom" id="pDP-Vh-M5m"/>
+                            <constraint firstItem="v5C-iL-HQZ" firstAttribute="top" secondItem="kCs-JZ-uFL" secondAttribute="bottom" constant="8" id="q1f-hW-JJx"/>
+                            <constraint firstItem="gcj-dE-TDJ" firstAttribute="top" secondItem="o2W-a8-r9t" secondAttribute="bottom" constant="108.5" id="sqs-2T-sXM"/>
+                            <constraint firstAttribute="trailing" secondItem="v5C-iL-HQZ" secondAttribute="trailing" constant="-1" id="v0x-8M-Yfg"/>
+                            <constraint firstItem="v5C-iL-HQZ" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="137" id="wf7-QB-7Wa"/>
+                            <constraint firstAttribute="trailing" secondItem="gcj-dE-TDJ" secondAttribute="trailing" constant="-3" id="wyi-Xd-g8y"/>
+                            <constraint firstItem="o2W-a8-r9t" firstAttribute="top" secondItem="v5C-iL-HQZ" secondAttribute="bottom" constant="8" id="xwm-hy-Dhg"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="bgImg" destination="OGx-AP-3Lu" id="vTy-kH-v9m"/>
+                        <outlet property="swoosh" destination="kCs-JZ-uFL" id="aTy-Vf-Or4"/>
+                    </connections>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="117.59999999999999" y="123.68815592203899"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="100 Dollar Bill - Money Canvas Print by rocklanone" width="375" height="500"/>
+        <image name="Money title" width="223" height="165"/>
+    </resources>
+</document>
